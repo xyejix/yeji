@@ -1,0 +1,62 @@
+@import url(/reset.css);
+
+body {
+  min-width: 760px;
+}
+
+/* Header*/
+#main_header {
+  background-color: #1d4088;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 10px;
+  border-bottom: 1px solid #000;
+}
+#main_gnb {
+  overflow: hidden;
+  border-bottom: 1px solid #000;
+  background-color: #32394a;
+}
+#main_gnb > .left {
+  float: left;
+  overflow: hidden;
+}
+#main_gnb > .right {
+  float: right;
+  overflow: hidden;
+}
+#main_gnb >.left > li {
+  float: left;
+} 
+#main_gnb >.right > li {
+  float: right;
+} 
+#main_gnb a {
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-left: 1px solid #5f6673;
+  border-right: 1px solid #242a37;
+}
+
+/* Wrap */
+#wrap {
+  overflow: hidden;
+  background-color: #71b1d1;
+}
+#wrap > #main_lnb {
+  float: left;
+  width: 200px;
+}
+#main_lnb > ul >li >a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 15px;
+  color: #fff;
+  font-weight: bold;
+  border-top: 1px solid #96d6f6;
+  border-bottom: 1px solid #6298b2;
+}
